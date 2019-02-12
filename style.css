@@ -1,0 +1,32 @@
+/* Your board style here */
+body {
+  background-color: #272727;
+  color: #52AA5E;
+}
+.racer_table td {
+  height: 40px;
+  width: 40px;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/baba.jpg");
+}
+#player2_race td.active {
+  background-image: url("images/mama.jpg");
+}
+
+.finsihline{
+  background-image: url("images/finish.jpeg");
+  background-size: cover;
+}
+
+/*
+td {
+  border-style: solid;
+  border-color: red;
+}*/
+
+
